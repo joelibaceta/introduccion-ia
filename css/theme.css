@@ -278,3 +278,6 @@ html, body {
           mask-image: radial-gradient(circle, #000 60%, transparent 72%);
 }
 .accent.sm { width: 24vw; height: 24vw; right: 8%; }
+
+/* modo export: sin controles ni barra */
+.is-export .reveal .controls, .is-export .reveal .progress, .is-export .reveal .slide-number { display:none !important; }
