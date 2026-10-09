@@ -1,0 +1,7 @@
+# Build / temporales (perfiles de Chrome, venv, caches, exports intermedios)
+.build/
+node_modules/
+*.log
+
+# macOS
+.DS_Store
